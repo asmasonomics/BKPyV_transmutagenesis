@@ -6,7 +6,7 @@ This is a Snakemake workflow for the complete NanoSeq bioinformatics pipeline (h
 
 To use this Snakemake workflow, simply clone this repository and change directory into it.  
 ```
-git clone https://github.com/Mason-Lab-Code/NanoSeq-snakemake/
+git clone https://github.com/asmasonomics/BKPyV_transmutagenesis/NanoSeq-snakemake/
 cd NanoSeq-snakemake/
 ```
 

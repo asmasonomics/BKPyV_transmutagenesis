@@ -1,0 +1,26 @@
+# sample names e.g. donor IDs
+SAMPLES: 
+
+# all condition/treatment names
+TYPES:
+
+# condition/treatment names of diluted samples
+DUPLEX_TYPES:
+
+# condition/treatment name of undiluted matched normal sample
+UNDILUTED_TYPES:
+
+# GRCh38 or GRCh37 or T2T-CHM13
+GENOME_BUILD:
+
+# reference genome fasta (for alignment, variant calling etc.)
+GENOME:
+
+# reference genome fasta file from 1000 genomes (for contamination check)
+1000G_REFERENCE_GENOME:
+
+# read length in bp
+READ_LENGTH:
+
+# sonicated OR HpyCH4V
+LIBRARY_TYPE: 

@@ -1,0 +1,27 @@
+name: running_VerifyBamID2
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - bzip2=1.0.8=h7b6447c_0
+  - c-ares=1.18.1=h7f8727e_0
+  - ca-certificates=2023.01.10=h06a4308_0
+  - curl=7.82.0=h7f8727e_0
+  - htslib=1.9=h4da6232_3
+  - krb5=1.19.2=hac12032_0
+  - libcurl=7.82.0=h0b77cf5_0
+  - libdeflate=1.2=h516909a_1
+  - libedit=3.1.20210910=h7f8727e_0
+  - libev=4.33=h7f8727e_1
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libnghttp2=1.46.0=hce63b2e_0
+  - libssh2=1.10.0=h8f2d780_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1s=h7f8727e_0
+  - verifybamid2=1.0.6=he56e5df_0
+  - xz=5.2.5=h7f8727e_1
+  - zlib=1.2.12=h7f8727e_2
+prefix: /users/rg1051/scratch/python_environments/envs/running_VerifyBamID2
+

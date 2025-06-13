@@ -10,8 +10,6 @@ genome = pysam.FastaFile(sys.argv[2])
 sampname = ((str(sys.argv[1])[::-1]).split("/")[0][::-1]).replace(".tsv", "")
 outfile = open((sampname + "_SBS96_quintuplet_context.tsv"), "w")
 
-outfile = open((((str(sys.argv[1])[::-1]).split("/")[0][::-1]).split(".")[0] + "_single_SNV_quintuplet_context.tsv"),"w")
-
 # create list of chrom and position to check for neighboring sites
 records = []
 for i in tsv_in:
